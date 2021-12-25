@@ -1,0 +1,59 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Compile Update="Screens\Account.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Screens\ForgotPassword.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Screens\SignIn.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exam1\Task1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu\FormBooks.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu\FormCourses.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu\FormDashboard.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exam2\Overview.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu\FormRedeem.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exam2\Task1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exam2\Task2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exam2\Task3.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exam2\Task4.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Exam2\Task5.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Menu\FormTests.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Screens\SignUp.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Screens\Screen2.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Update="Screens\Screen1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+  </ItemGroup>
+</Project>
