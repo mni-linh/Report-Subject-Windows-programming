@@ -107,7 +107,6 @@ namespace SignInScreen
             this.txtUserName.Name = "txtUserName";
             this.txtUserName.Size = new System.Drawing.Size(272, 27);
             this.txtUserName.TabIndex = 18;
-            this.txtUserName.TextChanged += new System.EventHandler(this.txtUserName_TextChanged);
             // 
             // cbRemember
             // 
@@ -121,7 +120,6 @@ namespace SignInScreen
             this.cbRemember.TabIndex = 17;
             this.cbRemember.Text = "Remember me";
             this.cbRemember.UseVisualStyleBackColor = true;
-            this.cbRemember.CheckedChanged += new System.EventHandler(this.cbRemember_CheckedChanged);
             // 
             // btnLogin
             // 
@@ -244,7 +242,6 @@ namespace SignInScreen
             this.Name = "SignIn";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Form1_Load);
             this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Form1_MouseDown);
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
             this.ResumeLayout(false);

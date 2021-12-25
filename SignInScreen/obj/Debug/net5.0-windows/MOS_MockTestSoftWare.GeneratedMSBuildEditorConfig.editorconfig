@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = MOS_MockTestSoftWare
-build_property.ProjectDir = F:\Study\3rdyrs_1st\C#Windows\MSW\Windows-programming_SoCua - Copy - Copy - Copy\SignInScreen\
+build_property.ProjectDir = F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\

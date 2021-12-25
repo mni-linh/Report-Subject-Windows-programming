@@ -98,7 +98,6 @@ namespace SignInScreen
             this.btnDock.Size = new System.Drawing.Size(41, 40);
             this.btnDock.TabIndex = 2;
             this.btnDock.UseVisualStyleBackColor = true;
-            this.btnDock.Click += new System.EventHandler(this.btnDock_Click);
             // 
             // lblPosProj
             // 
@@ -124,7 +123,6 @@ namespace SignInScreen
             this.btnSummary.TabIndex = 1;
             this.btnSummary.Text = "Summary";
             this.btnSummary.UseVisualStyleBackColor = true;
-            this.btnSummary.Click += new System.EventHandler(this.btnSummary_Click);
             // 
             // lblIndex
             // 
@@ -161,7 +159,6 @@ namespace SignInScreen
             this.lblTime.Size = new System.Drawing.Size(86, 28);
             this.lblTime.TabIndex = 5;
             this.lblTime.Text = "02:46:12";
-            this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
             // 
             // btnSaveProject
             // 
@@ -414,7 +411,6 @@ namespace SignInScreen
             this.panelDetail.Name = "panelDetail";
             this.panelDetail.Size = new System.Drawing.Size(1918, 239);
             this.panelDetail.TabIndex = 6;
-            this.panelDetail.Paint += new System.Windows.Forms.PaintEventHandler(this.panelDetail_Paint);
             // 
             // timer1
             // 

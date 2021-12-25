@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "jR3DWqxqvnA3Jc3QdwUdtCXZKwXDkGoGDPUH9J0pWv0pwxOKGYxL9LqLRlpbadHvm1nUUSZ1h0rCnCcZhdzjHQ==",
+  "dgSpecHash": "Xe91YCmoIF2tSRJDbWEMHBN8Spnbt+uYerkoyAhdpI2eo2pu6JabesbYH0PsUbojMI7Aj2FhA22h4HzjCYgDog==",
   "success": true,
-  "projectFilePath": "F:\\Study\\3rdyrs_1st\\C#Windows\\MSW\\Windows-programming_SoCua - Copy - Copy - Copy\\SignInScreen\\MOS_MockTestSoftWare.csproj",
+  "projectFilePath": "F:\\Study\\3rdyrs_1st\\C#Windows\\MSW\\MOS_MockTestSoftware\\SignInScreen\\MOS_MockTestSoftWare.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Admin\\.nuget\\packages\\aspose.words\\21.11.0\\aspose.words.21.11.0.nupkg.sha512",
     "C:\\Users\\Admin\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",

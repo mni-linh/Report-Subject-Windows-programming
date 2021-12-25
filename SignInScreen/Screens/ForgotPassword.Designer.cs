@@ -282,7 +282,6 @@ namespace SignInScreen
             this.btnClose.Text = "X";
             this.btnClose.UseVisualStyleBackColor = false;
             this.btnClose.Click += new System.EventHandler(this.btnClose_Click);
-            this.btnClose.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnClose_MouseDown);
             // 
             // ForgotPassword
             // 
@@ -313,8 +312,7 @@ namespace SignInScreen
             this.Name = "ForgotPassword";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
             this.Text = "Reset Password";
-            this.Load += new System.EventHandler(this.FgPass_Load);
-            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FgPass_MouseDown);
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.FogotPassword_MouseDown);
             this.ResumeLayout(false);
             this.PerformLayout();
 

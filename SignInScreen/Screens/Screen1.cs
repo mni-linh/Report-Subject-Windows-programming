@@ -5,6 +5,7 @@ using System.Data;
 using System.Drawing;
 using System.IO;
 using System.Linq;
+using System.Runtime.InteropServices;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -67,7 +68,6 @@ namespace SignInScreen
                     currentButton = (Button)btnSender;
                     currentButton.ForeColor = Color.Black;
                     currentButton.Font = new System.Drawing.Font("Segoe UI", 9F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-                    //////////
                     currentButton.BackColor = color;
                 }
             }
@@ -85,7 +85,6 @@ namespace SignInScreen
                 String path = Directory.GetCurrentDirectory();
                 string fileName = @"C:\Users\Admin\OneDrive\Documents\Task01.docx";
                 if (File.Exists(fileName))
-                    //Console.WriteLine("File exists.");
                     MessageBox.Show("File exists. You have completed the assignment", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 else
                     MessageBox.Show("File does not exist. You haven't finished your homework", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
@@ -96,11 +95,6 @@ namespace SignInScreen
             }
         }
 
-        private void lblTime_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void timer1_Tick(object sender, EventArgs e)
         {
             lblTime.Text = DateTime.Now.ToString("HH:mm:ss");
@@ -109,6 +103,16 @@ namespace SignInScreen
         private void panelStatus_Paint(object sender, PaintEventArgs e)
         {
             timer1.Start();
+        }
+        [DllImport("user32.DLL", EntryPoint = "ReleaseCapture")]
+        private extern static void ReleaseCapture();
+        [DllImport("user32.DLL", EntryPoint = "SendMessage")]
+        private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
+
+        private void Screen1_MouseDown(object sender, MouseEventArgs e)
+        {
+            ReleaseCapture();
+            SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
     }
 }

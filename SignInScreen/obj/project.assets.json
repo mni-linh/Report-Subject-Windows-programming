@@ -1706,11 +1706,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "F:\\Study\\3rdyrs_1st\\C#Windows\\MSW\\Windows-programming_SoCua - Copy - Copy - Copy\\SignInScreen\\MOS_MockTestSoftWare.csproj",
+      "projectUniqueName": "F:\\Study\\3rdyrs_1st\\C#Windows\\MSW\\MOS_MockTestSoftware\\SignInScreen\\MOS_MockTestSoftWare.csproj",
       "projectName": "MOS_MockTestSoftWare",
-      "projectPath": "F:\\Study\\3rdyrs_1st\\C#Windows\\MSW\\Windows-programming_SoCua - Copy - Copy - Copy\\SignInScreen\\MOS_MockTestSoftWare.csproj",
+      "projectPath": "F:\\Study\\3rdyrs_1st\\C#Windows\\MSW\\MOS_MockTestSoftware\\SignInScreen\\MOS_MockTestSoftWare.csproj",
       "packagesPath": "C:\\Users\\Admin\\.nuget\\packages\\",
-      "outputPath": "F:\\Study\\3rdyrs_1st\\C#Windows\\MSW\\Windows-programming_SoCua - Copy - Copy - Copy\\SignInScreen\\obj\\",
+      "outputPath": "F:\\Study\\3rdyrs_1st\\C#Windows\\MSW\\MOS_MockTestSoftware\\SignInScreen\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\Admin\\AppData\\Roaming\\NuGet\\NuGet.Config",

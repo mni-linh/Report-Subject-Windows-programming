@@ -25,7 +25,7 @@ namespace SignInScreen
             try
             {
                 SqlConnection con = new SqlConnection(@"Data Source=MNI-LINH\SQLEXPRESS01;Initial Catalog=DBW;Integrated Security=True");
-                string query = "select _PASSWORD from THISINH Where _PASSWORD='" + textBox1.Text + "'";
+                string query = "SELECT _PASSWORD FROM THISINH WHERE _PASSWORD='" + textBox1.Text + "'";
                 SqlDataAdapter sda = new SqlDataAdapter(query, con);
                 DataTable dt = new DataTable();
                 sda.Fill(dt);
@@ -35,11 +35,15 @@ namespace SignInScreen
                     if (textBox2.Text == textBox3.Text)
                     {
                         con.Open();
-                        SqlCommand cmd = new SqlCommand("UPDATE THISINH SET _PASSWORD='" + textBox3.Text + "' where _PASSWORD = '" + textBox1.Text + "'", con);
+                        SqlCommand cmd = new SqlCommand("UPDATE THISINH SET _PASSWORD='" + textBox3.Text + "' WHERE _PASSWORD = '" + textBox1.Text + "'", con);
 
                         cmd.ExecuteNonQuery();
                         con.Close();
                         MessageBox.Show("Your Password Is Successfully Updated....", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                        textBox1.Clear();
+                        textBox2.Clear();
+                        textBox3.Clear();
+                        textBox1.Focus();
                         //label4.ForeColor = System.Drawing.Color.Green;
                         //label4.Text = "Your Password Is Successfully Updated....";
                     }
@@ -74,11 +78,6 @@ namespace SignInScreen
         private void textBox3_TextChanged(object sender, EventArgs e)
         {
             textBox3.PasswordChar = '*';
-        }
-
-        private void FgPass_Load(object sender, EventArgs e)
-        {
-
         }
 
         private void btnHide1_Click(object sender, EventArgs e)
@@ -151,12 +150,7 @@ namespace SignInScreen
         [DllImport("user32.DLL", EntryPoint = "SendMessage")]
         private extern static void SendMessage(System.IntPtr hWnd, int wMsg, int wParam, int lParam);
 
-        private void btnClose_MouseDown(object sender, MouseEventArgs e)
-        {
-
-        }
-
-        private void FgPass_MouseDown(object sender, MouseEventArgs e)
+        private void FogotPassword_MouseDown(object sender, MouseEventArgs e)
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);

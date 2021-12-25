@@ -139,7 +139,9 @@ namespace SignInScreen
         private void btnGradeProject_Click(object sender, EventArgs e)
         {
             string keyword = @"((Capitalize)[a-zA-Z_0-9 ]*(subtitle))";
-            string file = @"C:/Users/Admin/OneDrive/Documents/BookTitle.docx";
+            //string file = @"C:/Users/Admin/OneDrive/Documents/BookTitle.docx";
+            string file = @"C:\Users\Admin\OneDrive\Documents\templates\BookTitle.docx";
+
             asp.Document doc = new asp.Document(file);
 
             string[] paraNeedFind;
@@ -277,21 +279,22 @@ namespace SignInScreen
             }
             return true;
         }
-
-        private void panelDetail_Paint(object sender, PaintEventArgs e)
+     
+        private void timer1_Tick(object sender, EventArgs e)
         {
-
+            lblTime.Text = DateTime.Now.ToString("HH:mm:ss");
         }
 
-        private void btnSummary_Click(object sender, EventArgs e)
+        private void panelStatus_Paint(object sender, PaintEventArgs e)
         {
-            
+            timer1.Start();
         }
 
         private void lblTest_Click_1(object sender, EventArgs e)
         {
             string keyword = @"((Capitalize)[a-zA-Z_0-9 ]*(subtitle))";
-            string file = @"C:/Users/Admin/OneDrive/Documents/BookTitle.docx";
+            //string file = @"C:/Users/Admin/OneDrive/Documents/BookTitle.docx";
+            string file = @"C:\Users\Admin\OneDrive\Documents\templates\BookTitle.docx";
             asp.Document doc = new asp.Document(file);
 
             string[] paraNeedFind;
@@ -370,26 +373,6 @@ namespace SignInScreen
                 MessageBox.Show("Ok", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Information);
 
             }
-        }
-
-        private void lblTime_Click(object sender, EventArgs e)
-        {
-
-        }
-
-        private void timer1_Tick(object sender, EventArgs e)
-        {
-            lblTime.Text = DateTime.Now.ToString("HH:mm:ss");
-        }
-
-        private void panelStatus_Paint(object sender, PaintEventArgs e)
-        {
-            timer1.Start();
-        }
-
-        private void btnDock_Click(object sender, EventArgs e)
-        {
-
         }
     }
 }

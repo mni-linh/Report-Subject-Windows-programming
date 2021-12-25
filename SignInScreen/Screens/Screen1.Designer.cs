@@ -253,7 +253,6 @@ namespace SignInScreen
             this.lblTime.Size = new System.Drawing.Size(86, 28);
             this.lblTime.TabIndex = 5;
             this.lblTime.Text = "02:46:12";
-            this.lblTime.Click += new System.EventHandler(this.lblTime_Click);
             // 
             // btnRestartProject
             // 
@@ -410,6 +409,7 @@ namespace SignInScreen
             this.Name = "Screen1";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = "StatusScreen_01";
+            this.MouseDown += new System.Windows.Forms.MouseEventHandler(this.Screen1_MouseDown);
             this.panelActionBar.ResumeLayout(false);
             this.panelTask.ResumeLayout(false);
             this.panelStatus.ResumeLayout(false);

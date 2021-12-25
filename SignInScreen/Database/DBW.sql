@@ -21,20 +21,12 @@ VALUES
 (4501104218, N'Võ Thị Phương Thắm', 2001-06-14, 'thamvtp', '218', '218', 10),
 (4501104276, N'Trịnh Thị Phương Vi', 2001-01-01, 'vittp', '276', '276', 10), --17/12 --> 2901
 (4501104064, N'Phan Thị Thu Hà', 2001-08-21, 'haptt', '064', '064', 10),
-(4501104009, N'Nguyễn Thị Vân Anh', 2001-01-29, 'anhntv', '009', '009', 10), --29/1
+(4501104009, N'Nguyễn Thị Vân Anh', 2001-02-27, 'anhntv', '009', '009', 10), --29/1
 (4501104163, N'Phạm Nguyễn Hồng Nguyên', 2001-05-25, 'nguyenpnh', '163', 'BRVT', 10),
 (4501104249, N'Sầm Thị Hoàng Trang', 2001-10-18, 'trangsth', '249', '249', 10)
 
 
 -------- TRUY VAN
-/*
-SBD VARCHAR(10) NOT NULL,-- PRIMARY KEY,
-	HOTEN NVARCHAR(50) NOT NULL,
-	NGAYSINH DATETIME NOT NULL,
-	USERNAME VARCHAR(10) NOT NULL,
-	_PASSWORD VARCHAR(20) NOT NULL,
-	DIEM
-*/
 GO
 --CREATE PROC UserAdd
 ALTER PROC UserAdd
@@ -60,11 +52,11 @@ CREATE TABLE DETHI
 INSERT DETHI (MADE, NGAYTHI, THOILUONG, TEPDT, GIOITHIEU) 
 VALUES 
 --('MD01', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\DeThi\DT01.docx', N'Giới thiệu của mã đề 01'),
-('MD01', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\DeThi\DT01.docx', N'Book Title: Ensure your title is memorable and grabs the attention of readers. The title should clarify what the book is about and must be easy to say.'),
-('MD02', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\DeThi\DT02.docx', N'Computer Care: A local computer reseller provides flyers on computer care to its customers. You work as a technician for this store and have been tasked to prepare a new flyer.'),
-('MD03', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\DeThi\DT03.docx', N'Giới thiệu của mã đề 03'),
-('MD04', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\DeThi\DT04.docx', N'Giới thiệu của mã đề 04'),
-('MD05', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\DeThi\DT05.docx', N'Giới thiệu của mã đề 05')
+('MD01', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\DeThi\DT01.docx', N'Book Title: Ensure your title is memorable and grabs the attention of readers. The title should clarify what the book is about and must be easy to say.'),
+('MD02', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\DeThi\DT02.docx', N'Computer Care: A local computer reseller provides flyers on computer care to its customers. You work as a technician for this store and have been tasked to prepare a new flyer.'),
+('MD03', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\DeThi\DT03.docx', N'Giới thiệu của mã đề 03'),
+('MD04', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\DeThi\DT04.docx', N'Giới thiệu của mã đề 04'),
+('MD05', 2021-11-21, 90, N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\DeThi\DT05.docx', N'Giới thiệu của mã đề 05')
 
 -------- CHAMDIEM
 GO
@@ -97,11 +89,11 @@ CREATE TABLE CAUHOI
 )
 INSERT CAUHOI (MACAU, MADE, NOIDUNG, GOIY, DIEM) 
 VALUES
-('C001', 'MD01', N'Đổi màu chữ thành màu đỏ từ chữ "Capitalize" đến "subtitle"', N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\GoiY\GY01.docx', 10),
-('C002', 'MD01', N'Đổi cỡ chữ 13 từ chữ "Capitalize" đến "subtitle"', N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\BaiGiai\GY02.docx', 10),
-('C003', 'MD01', N'In đậm từ chữ "Capitalize" đến "subtitle"', N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\BaiGiai\GY03.docx', 10),
-('C004', 'MD01', N'Đổi font chữ từ "Capitalize" đến "subtitle"', N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\BaiGiai\GY04.docx', 10),
-('C005', 'MD01', N'Nội dung của câu C005', N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\BaiGiai\GY05.docx', 10)
+('C001', 'MD01', N'Đổi màu chữ thành màu đỏ từ chữ "Capitalize" đến "subtitle"', N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\GoiY\GY01.docx', 10),
+('C002', 'MD01', N'Đổi cỡ chữ 13 từ chữ "Capitalize" đến "subtitle"', N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\GoiY\GY02.docx', 10),
+('C003', 'MD01', N'In đậm từ chữ "Capitalize" đến "subtitle"', N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\GoiY\GY03.docx', 10),
+('C004', 'MD01', N'Đổi font chữ từ "Capitalize" đến "subtitle"', N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\GoiY\GY04.docx', 10),
+('C005', 'MD01', N'Nội dung của câu C005', N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\GoiY\GY05.docx', 10)
 
 
 -------- BAILAM
@@ -115,11 +107,11 @@ CREATE TABLE BAILAM
 )
 INSERT BAILAM (MACAU, MADE, SBD, CAUTRALOI) 
 VALUES
-('C001', N'MD01', '4501104127', N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\BaiGiai\BG01.docx'),
-('C002', N'MD01', '4501104127', N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\BaiGiai\BG02.docx'),
-('C003', N'MD01', '4501104127', N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\BaiGiai\BG03.docx'),
-('C004', N'MD01', '4501104127', N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\BaiGiai\BG04.docx'),
-('C005', N'MD01', '4501104127', N'F:\Study\3rdyrs_1st\C#Windows\MSW\Database\BaiGiai\BG05.docx')
+('C001', N'MD01', '4501104127', N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\BaiGiai\BG01.docx'),
+('C002', N'MD01', '4501104127', N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\BaiGiai\BG02.docx'),
+('C003', N'MD01', '4501104127', N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\BaiGiai\BG03.docx'),
+('C004', N'MD01', '4501104127', N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\BaiGiai\BG04.docx'),
+('C005', N'MD01', '4501104127', N'F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\Database\BaiGiai\BG05.docx')
 
 CREATE TABLE RSPASS
 (

@@ -19,11 +19,6 @@ namespace SignInScreen
             InitializeComponent();
         }
 
-        private void txtUserName_TextChanged(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnLogin_Click(object sender, EventArgs e)
         { 
             SqlConnection sqlCon = new SqlConnection(@"Data Source=MNI-LINH\SQLEXPRESS01;Initial Catalog=DBW;Integrated Security=True");
@@ -46,9 +41,7 @@ namespace SignInScreen
                 txtUserName.Focus();
             }
         }
-        
-
-            /*
+        /*
             if (txtUserName.Text == "" && txtPassword.Text == "")
             {
                 new AccountScreen().Show();
@@ -93,11 +86,6 @@ namespace SignInScreen
             SendMessage(this.Handle, 0x112, 0xf012, 0);
         }
 
-        private void Form1_Load(object sender, EventArgs e)
-        {
-
-        }
-
         private void btnHide_Click(object sender, EventArgs e)
         {
             if(txtPassword.PasswordChar == '\0')
@@ -114,11 +102,6 @@ namespace SignInScreen
                 btnHide.BringToFront();
                 txtPassword.PasswordChar = '\0';
             }
-        }
-
-        private void cbRemember_CheckedChanged(object sender, EventArgs e)
-        {
-
         }
 
         private void lblSignUp_Click(object sender, EventArgs e)
