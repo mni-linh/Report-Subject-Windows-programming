@@ -1,7 +1,7 @@
 ﻿
 namespace SignInScreen
 {
-    partial class Screen1
+    partial class Status1
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace SignInScreen
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Screen1));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Status1));
             this.btnMarkCompleted = new System.Windows.Forms.Button();
             this.btnMarkForReview = new System.Windows.Forms.Button();
             this.btnNextTask = new System.Windows.Forms.Button();
@@ -192,6 +192,7 @@ namespace SignInScreen
             this.btnOverview.TabIndex = 7;
             this.btnOverview.Text = "Overview";
             this.btnOverview.UseVisualStyleBackColor = false;
+            this.btnOverview.Click += new System.EventHandler(this.btnOverview_Click);
             // 
             // btnHelp
             // 

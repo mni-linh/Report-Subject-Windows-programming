@@ -56,7 +56,7 @@ namespace SignInScreen.Forms
             Process.Start(startInfo);
 
             // Open Status Task
-            new Screen2().Show();
+            new Status2().Show();
             this.Hide();
         }
     }

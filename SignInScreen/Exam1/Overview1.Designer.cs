@@ -1,5 +1,5 @@
 ﻿
-namespace SignInScreen.Forms
+namespace MOS_MockTestSoftWare.Exam1
 {
     partial class Overview
     {
@@ -40,11 +40,11 @@ namespace SignInScreen.Forms
             this.label1.AutoSize = true;
             this.label1.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label1.Font = new System.Drawing.Font("Segoe UI", 11F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point);
-            this.label1.Location = new System.Drawing.Point(401, 28);
+            this.label1.Location = new System.Drawing.Point(410, 25);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(102, 25);
-            this.label1.TabIndex = 0;
-            this.label1.Text = "Book Title";
+            this.label1.Size = new System.Drawing.Size(81, 25);
+            this.label1.TabIndex = 1;
+            this.label1.Text = "Resume";
             this.label1.TextAlign = System.Drawing.ContentAlignment.MiddleCenter;
             // 
             // label2
@@ -52,10 +52,10 @@ namespace SignInScreen.Forms
             this.label2.Anchor = System.Windows.Forms.AnchorStyles.Top;
             this.label2.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.label2.Font = new System.Drawing.Font("Segoe UI", 10F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.label2.Location = new System.Drawing.Point(57, 74);
+            this.label2.Location = new System.Drawing.Point(65, 74);
             this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(833, 98);
-            this.label2.TabIndex = 1;
+            this.label2.Size = new System.Drawing.Size(833, 95);
+            this.label2.TabIndex = 2;
             this.label2.Text = resources.GetString("label2.Text");
             this.label2.TextAlign = System.Drawing.ContentAlignment.MiddleLeft;
             // 
@@ -67,7 +67,7 @@ namespace SignInScreen.Forms
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Name = "Overview";
-            this.Text = "FormOverview";
+            this.Text = "Overview1";
             this.ResumeLayout(false);
             this.PerformLayout();
 

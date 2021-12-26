@@ -12,12 +12,12 @@ using System.Windows.Forms;
 
 namespace SignInScreen
 {
-    public partial class Screen1 : Form
+    public partial class Status1 : Form
     {
         private Button currentButton;
         private Form activeForm;
 
-        public Screen1()
+        public Status1()
         {
             InitializeComponent();
         }
@@ -113,6 +113,12 @@ namespace SignInScreen
         {
             ReleaseCapture();
             SendMessage(this.Handle, 0x112, 0xf012, 0);
+        }
+
+        private void btnOverview_Click(object sender, EventArgs e)
+        {
+            ActivateButton(sender, RGBColors.color1);
+            OpenChildForm(new Forms.Overview(), sender);
         }
     }
 }

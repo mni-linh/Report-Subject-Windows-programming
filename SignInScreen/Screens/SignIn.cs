@@ -35,7 +35,7 @@ namespace SignInScreen
             }
             else
             {
-                MessageBox.Show("The user name or password you entered is incorrect, try again");
+                MessageBox.Show("The user name or password you entered is incorrect, try again", "Notification", MessageBoxButtons.OK, MessageBoxIcon.Warning);
                 txtUserName.Clear();
                 txtPassword.Clear();
                 txtUserName.Focus();

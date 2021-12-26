@@ -79,7 +79,6 @@ F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\bin\Debug\ne
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\bin\Debug\net5.0-windows\runtimes\win\lib\netcoreapp2.1\System.Data.SqlClient.dll
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\MOS_MockTestSoftWare.csproj.AssemblyReference.cache
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Forms1.Task1.resources
-F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Forms.Overview.resources
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Forms.Task1.resources
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Forms.Task2.resources
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Forms.Task3.resources
@@ -93,8 +92,6 @@ F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\ne
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\MOS_MockTestSoftWare.Properties.Resources.resources
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Account.resources
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.ForgotPassword.resources
-F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Screen1.resources
-F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Screen2.resources
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.SignIn.resources
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.SignUp.resources
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\MOS_MockTestSoftWare.csproj.GenerateResource.cache
@@ -107,3 +104,7 @@ F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\ne
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\ref\MOS_MockTestSoftWare.dll
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\MOS_MockTestSoftWare.pdb
 F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\MOS_MockTestSoftWare.genruntimeconfig.cache
+F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\MOS_MockTestSoftWare.Exam1.Overview.resources
+F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Forms.Overview.resources
+F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Status1.resources
+F:\Study\3rdyrs_1st\C#Windows\MSW\MOS_MockTestSoftware\SignInScreen\obj\Debug\net5.0-windows\SignInScreen.Status2.resources

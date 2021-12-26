@@ -1,6 +1,9 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
 <Project ToolsVersion="Current" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup>
+    <Compile Update="Exam1\Overview1.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Update="Screens\Account.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -49,10 +52,10 @@
     <Compile Update="Screens\SignUp.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Screens\Screen2.cs">
+    <Compile Update="Screens\Status2.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Update="Screens\Screen1.cs">
+    <Compile Update="Screens\Status1.cs">
       <SubType>Form</SubType>
     </Compile>
   </ItemGroup>

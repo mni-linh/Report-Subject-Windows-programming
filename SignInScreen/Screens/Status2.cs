@@ -16,14 +16,14 @@ using System.Text.RegularExpressions;
 
 namespace SignInScreen
 {
-    public partial class Screen2 : Form
+    public partial class Status2 : Form
     {
         // Fields
         private Random random;
         private Form activeForm;
         private Button currentButton;
 
-        public Screen2()
+        public Status2()
         {
             InitializeComponent();
             random = new Random();
@@ -289,6 +289,27 @@ namespace SignInScreen
         {
             timer1.Start();
         }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
         private void lblTest_Click_1(object sender, EventArgs e)
         {

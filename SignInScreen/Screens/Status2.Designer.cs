@@ -1,7 +1,7 @@
 ﻿
 namespace SignInScreen
 {
-    partial class Screen2
+    partial class Status2
     {
         /// <summary>
         /// Required designer variable.
@@ -30,7 +30,7 @@ namespace SignInScreen
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Screen2));
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Status2));
             this.btnQuestion = new System.Windows.Forms.Button();
             this.btnFontSize = new System.Windows.Forms.Button();
             this.btnDock = new System.Windows.Forms.Button();
@@ -417,7 +417,7 @@ namespace SignInScreen
             this.timer1.Interval = 1000;
             this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
             // 
-            // Screen2
+            // Status2
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 20F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
@@ -432,7 +432,7 @@ namespace SignInScreen
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1920, 413);
             this.MinimumSize = new System.Drawing.Size(1918, 413);
-            this.Name = "Screen2";
+            this.Name = "Status2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = " ";
             this.panelStatus.ResumeLayout(false);
