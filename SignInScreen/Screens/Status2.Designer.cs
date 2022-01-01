@@ -42,7 +42,6 @@ namespace SignInScreen
             this.btnSaveProject = new System.Windows.Forms.Button();
             this.btnGradeProject = new System.Windows.Forms.Button();
             this.panelStatus = new System.Windows.Forms.Panel();
-            this.lblTest = new System.Windows.Forms.Label();
             this.panelTask = new System.Windows.Forms.Panel();
             this.btnTask5 = new System.Windows.Forms.Button();
             this.btnTask4 = new System.Windows.Forms.Button();
@@ -191,7 +190,6 @@ namespace SignInScreen
             // panelStatus
             // 
             this.panelStatus.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(75)))), ((int)(((byte)(131)))));
-            this.panelStatus.Controls.Add(this.lblTest);
             this.panelStatus.Controls.Add(this.btnGradeProject);
             this.panelStatus.Controls.Add(this.btnSaveProject);
             this.panelStatus.Controls.Add(this.lblTime);
@@ -210,19 +208,6 @@ namespace SignInScreen
             this.panelStatus.TabIndex = 0;
             this.panelStatus.Paint += new System.Windows.Forms.PaintEventHandler(this.panelStatus_Paint);
             this.panelStatus.MouseDown += new System.Windows.Forms.MouseEventHandler(this.panelStatus_MouseDown);
-            // 
-            // lblTest
-            // 
-            this.lblTest.AutoSize = true;
-            this.lblTest.BackColor = System.Drawing.Color.FromArgb(((int)(((byte)(39)))), ((int)(((byte)(75)))), ((int)(((byte)(131)))));
-            this.lblTest.Font = new System.Drawing.Font("Segoe UI", 5F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point);
-            this.lblTest.ForeColor = System.Drawing.Color.White;
-            this.lblTest.Location = new System.Drawing.Point(1804, 37);
-            this.lblTest.Name = "lblTest";
-            this.lblTest.Size = new System.Drawing.Size(7, 12);
-            this.lblTest.TabIndex = 13;
-            this.lblTest.Text = " ";
-            this.lblTest.Click += new System.EventHandler(this.lblTest_Click_1);
             // 
             // panelTask
             // 
@@ -431,7 +416,7 @@ namespace SignInScreen
             this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.MaximumSize = new System.Drawing.Size(1920, 413);
-            this.MinimumSize = new System.Drawing.Size(1918, 413);
+            this.MinimumSize = new System.Drawing.Size(1862, 413);
             this.Name = "Status2";
             this.StartPosition = System.Windows.Forms.FormStartPosition.Manual;
             this.Text = " ";
@@ -470,7 +455,6 @@ namespace SignInScreen
         private System.Windows.Forms.Button btnNextTask;
         private System.Windows.Forms.Button btnHelp;
         private System.Windows.Forms.Button btnPreviousTask;
-        private System.Windows.Forms.Label lblTest;
         private System.Windows.Forms.Timer timer1;
     }
 }
